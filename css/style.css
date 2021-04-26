@@ -1,0 +1,76 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+#wrapper{
+	width: 100%;
+}
+header{
+	width: 20%;
+	height: 100vh;
+/*	background: rgba(205,205,205,1.00);*/
+	position: fixed;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.logo{
+	width: 100%;
+	height: 150px;
+/*	background: rgba(116,226,184,1.00)*/
+}
+.logo img{
+	width: 100px;
+}
+nav{
+	width: 100%;
+	height: 400px;
+/*	background: rgba(121,159,239,1.00);*/
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	border-bottom: 1px solid rgba(202,202,202,1.00);
+	height: 40px;
+/*	background: red;*/
+	line-height: 40px;
+}
+nav ul li:last-child{
+	border: none;
+}
+nav ul li a{
+	color: #1f1f1f;
+	text-decoration: none;
+/*	background: blue;*/
+	display: block;
+}
+.bottom input{
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid rgba(202,202,202,1.00);
+	outline: none;
+	padding: 5px 0;
+}
+.social{
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.social svg{
+	color: rgba(148,148,148,1.00)
+}
+main{
+	width: 80%;
+	height: 2000px;
+	background: rgba(201,105,106,1.00);
+	float: right;
+}
